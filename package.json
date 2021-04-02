@@ -1,20 +1,11 @@
 {
-  "name": "express-generator-demo",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "start": "nodemon app.js localhost 8080"
-  },
-  "dependencies": {
-    "cookie-parser": "~1.4.4",
-    "debug": "~2.6.9",
-    "express": "~4.16.1",
-    "hbs": "4.1.0",
-    "morgan": "~1.9.1"
-  },
-  "devDependencies": {
-    "nodemon": "1.18.4"
-  },
-  "keywords": []
+    "name": "app-service-hello-world",
+    "description": "Simple Hello World Node.js sample for Azure App Service",
+    "version": "0.0.1",
+    "private": true,
+    "license": "MIT",
+    "author": "Microsoft",
+    "scripts": {
+        "start": "node index.js"
+    }
 }
