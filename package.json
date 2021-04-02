@@ -1,20 +1,20 @@
 {
-  "name": "nodesampleproject",
+  "name": "express-generator-demo",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "start": "nodemon app.js localhost 8080"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/jaxgia93/nodeSampleProject.git"
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "hbs": "4.1.0",
+    "morgan": "~1.9.1"
   },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/jaxgia93/nodeSampleProject/issues"
+  "devDependencies": {
+    "nodemon": "1.18.4"
   },
-  "homepage": "https://github.com/jaxgia93/nodeSampleProject#readme"
+  "keywords": []
 }
